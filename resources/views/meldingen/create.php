@@ -22,13 +22,13 @@
             </div>
             <div class="form-group">
                 <label for="type">Type</label>
-                    <select id="type" name="type" required>
+                 <select id="type" name="type" required>
                      <option value="">-- kies een type --</option>
                      <option value="achtbaan">Achtbaan</option>
                      <option value="draaiend">Draaiende attractie</option>
                      <option value="water">Waterattractie</option>
                      <option value="overig">Overig</option>
-              </select>
+                </select>
             </div>
             <div class="form-group">
                 <label for="capaciteit">Capaciteit p/uur:</label>
@@ -37,6 +37,10 @@
             <div class="form-group">
                 <label for="melder">Naam melder:</label>
                 <input type="text" name="melder" id="melder" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="overige_info">Overige info:</label>
+                <textarea name="overige_info" id="overige_info" class="form-input" rows="4"></textarea>
             </div>
 
             <input type="submit" value="Verstuur melding">
