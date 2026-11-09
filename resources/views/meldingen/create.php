@@ -1,6 +1,6 @@
 <?php require_once __DIR__.'/../../../config/config.php'; ?>
 <!doctype html>
-<html lang="nl">
+<ht lang="nl">
 
 <head>
     <title>StoringApp / Meldingen / Nieuw</title>
@@ -50,4 +50,5 @@
 
 </body>
 
-</html>
+</ht
+l>

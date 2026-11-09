@@ -357,3 +357,26 @@ label{
   }
 }
 
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: .75rem;
+    text-align: left;
+    border-bottom: 1px solid #cbd5e1;
+}
+
+thead{
+    background: #334155;
+    color: white;
+}
+
+tbody tr:nth-child(odd){
+    background: #f1f5f9;
+}
+
+tbody tr:hover{
+    background: #dbeafe;
+}
